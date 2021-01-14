@@ -614,6 +614,44 @@ button.btnA:hover {
     border-radius: 20px;
     
 }
+/* ######### End line of service page */
+
+#contact1{
+  background-image: url(../../Images/Home/Rec\ 1.jpg);
+  padding-bottom:109px;
+}
+#form h2{
+  color: black;
+    font-size: 56px;
+}
+.form{
+         background: white;
+    margin: -92px 340px 75px 420px;
+}
+
+#form p{
+  font-size: 15px;
+
+}
+input{
+  overflow: visible;
+    padding: 0 0 0;
+    width: 100%;
+    background: #DEDEDE;
+    margin: 36px 0 0 0;
+    border: none;
+    padding: 10px 0 10px 0;
+    border-radius: 8px;
+}
+.form-control{
+  margin-top: 32px;
+}
+#form button.btn{
+  color: white;
+  margin-top: 10px;
+  background: linear-gradient(45deg, #DC6EF9, #6B0BCD);
+}
+
 #footer {
   background: linear-gradient(45deg, #5d2f6a, #6b0bcd);
   border-top: 1px solid white;
