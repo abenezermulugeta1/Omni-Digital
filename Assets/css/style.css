@@ -563,6 +563,9 @@ button.btnA:hover {
   padding-bottom: 50px;
   font-weight: 300;
 }
+#service2 h3{
+  color: black;
+}
 #service3 {
   background-image: url(../../Images/Home/Rec\ 2.jpg);
   padding-bottom: 78px;
@@ -707,6 +710,9 @@ p.fotter-para {
   #about2 p.secpara {
     padding: 0;
   }
+  #service5 div.rest {
+    margin: 0;
+  }
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
@@ -738,6 +744,9 @@ p.fotter-para {
   }
   #about2 p {
     font-size: 24px;
+  }
+   #service5 div.rest {
+    margin: 0;
   }
 
 }
