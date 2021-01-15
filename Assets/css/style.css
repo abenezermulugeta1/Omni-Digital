@@ -457,14 +457,6 @@ p.paragraph {
 }
 /* ########Home page ended */
 
-/* ####### Responsive Large Device */
-@media screen and(max-width:1199.98px) {
-  .mainpic {
-    width: 100%;
-  }
-}
-
-
 /* ######### Small Device ##### */
 @media screen and (max-width:768px){
   body{
