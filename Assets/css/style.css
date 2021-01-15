@@ -578,6 +578,10 @@ input {
   margin-top: 10px;
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
 }
+.down{
+    padding-bottom: 29px;
+    margin-left: 40px;
+}
 
 #footer {
   background: linear-gradient(45deg, #5d2f6a, #6b0bcd);
@@ -624,6 +628,10 @@ p.fotter-para {
     text-align: center;
     padding-top: 20px;
   }
+  .down{
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* ######### Small Device ##### */
@@ -659,7 +667,10 @@ p.fotter-para {
   #form button.btn {
     margin: 20px 0 32px 0;
   }
-
+  .down{
+    margin: 0;
+    padding: 0;
+  }
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
