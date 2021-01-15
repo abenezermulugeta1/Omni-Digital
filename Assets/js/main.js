@@ -96,3 +96,18 @@
     }
   }
 })
+
+
+$(document).ready(() => {
+    $('#b1').click(() => {
+        $('#pText').html("Omi Digital is a company of experts of varied backgrounds, in technology, product design and business startegy. we've come togetther to help ambitious businesses differentaite and compete - to become digital businesses. Omni Digital is a company of experts of varied backgrounds, in technology, product design and business starategy we've come togetherto help ambitious business differentiate and compete - become digital businesses.")
+            ;
+    })
+        $('#b2').click(() => {
+            $('#pText').html("With a deep understanding of traditional princples,expertise in digital methidology, and an empahsis on human-centered design. OmniDigital takes a fully-integrared approcj to aptimizing the marketing effort of our clients to drive real results.<br><br>And it all started with a comment:'Oh, that's creative!'")
+                ;
+        })
+    $('#b3').click(() => {
+            $('#pText').html(" We are a small team of dedicated marketing experts who build on the strength of one another to create a multi-faceted marketing resource for our clients . Each person at OniDigital brings a unique persepective, skill,setand talent to the client we work with and the work we create.")
+;    })
+})
