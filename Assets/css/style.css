@@ -755,5 +755,12 @@ p.fotter-para {
   p {
     text-align: center;
   }
+  .cont{
+        margin: 10px 0;
+  }
+  #form p{
+    color: #666666;
+
+  }
 }
 /* ####### End ######## */
