@@ -617,6 +617,13 @@ p.fotter-para {
   .form{
     margin: -92px 163px 75px 237px;
   }
+  #about3 img.acc{
+    margin-right:204px;
+  }
+  #about3 h6{
+    text-align: center;
+    padding-top: 20px;
+  }
 }
 
 /* ######### Small Device ##### */
@@ -636,6 +643,13 @@ p.fotter-para {
   #about2 p.secpara {
     padding: 0;
   }
+  #about3 img.acc{
+    margin-right:204px;
+  }
+  #about3 h6{
+    text-align: center;
+    padding-top: 20px;
+  }
   #service5 div.rest {
     margin: 0;
   }
@@ -645,6 +659,7 @@ p.fotter-para {
   #form button.btn {
     margin: 20px 0 32px 0;
   }
+
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
