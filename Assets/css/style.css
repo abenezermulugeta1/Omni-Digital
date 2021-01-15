@@ -611,6 +611,14 @@ p.fotter-para {
   font-weight: 300;
 }
 
+
+/* ######### Medium device ########## */
+@media (min-width: 769px) and (max-width : 992px){
+  .form{
+    margin: -92px 163px 75px 237px;
+  }
+}
+
 /* ######### Small Device ##### */
 @media screen and (max-width: 768px) {
   body {
