@@ -86,7 +86,7 @@
   autoplayHoverPause: true,
   responsive: {
     0: {
-      items: 2g
+      items: 2
     },
     600: {
       items: 3
