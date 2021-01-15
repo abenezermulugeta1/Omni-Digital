@@ -457,14 +457,11 @@ p.paragraph {
 }
 /* ########Home page ended */
 
-
-
 /* #### About Us page starting-line ### */
 #about1 {
-  background: linear-gradient(45deg, #DC6EF9, rgb(108, 11, 205)); 
+  background: linear-gradient(45deg, #dc6ef9, rgb(108, 11, 205));
   background-repeat: no-repeat;
-  padding-bottom:50px ;
- 
+  padding-bottom: 50px;
 }
 #about2 {
   margin-top: 150px;
@@ -563,7 +560,7 @@ button.btnA:hover {
   padding-bottom: 50px;
   font-weight: 300;
 }
-#service2 h3{
+#service2 h3 {
   color: black;
 }
 #service3 {
@@ -692,7 +689,6 @@ p.fotter-para {
   font-weight: 300;
 }
 
-
 /* ######### Small Device ##### */
 @media screen and (max-width: 768px) {
   body {
@@ -713,20 +709,26 @@ p.fotter-para {
   #service5 div.rest {
     margin: 0;
   }
+  .form {
+    margin: 0;
+  }
+  #form button.btn {
+    margin: 20px 0 32px 0;
+  }
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
   body {
-    overflow-x: hidden!important;
+    overflow-x: hidden !important;
   }
   .btn.btn2 {
     margin-top: 10px;
     margin-left: 0px;
   }
-  #section2 div.text-right{
-    text-align: center!important;
+  #section2 div.text-right {
+    text-align: center !important;
   }
-  #section2 h1{
+  #section2 h1 {
     text-align: center;
   }
   .array {
@@ -739,18 +741,19 @@ p.fotter-para {
     padding: 0;
     font-size: 18px;
   }
-  .btnA{
+  .btnA {
     margin-top: 12px;
   }
   #about2 p {
     font-size: 24px;
   }
-   #service5 div.rest {
+  #service5 div.rest {
     margin: 0;
   }
 
-   #service4 h1,p{
-     text-align: center;
-   }
+  #service4 h1,
+  p {
+    text-align: center;
   }
+}
 /* ####### End ######## */
