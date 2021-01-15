@@ -749,8 +749,8 @@ p.fotter-para {
     margin: 0;
   }
 
-   #service4 h1{
+   #service4 h1,p{
      text-align: center;
    }
-}
+  }
 /* ####### End ######## */
