@@ -32,7 +32,11 @@ p {
 .mainpic {
   padding-top: 70px;
 }
-
+.tittle {
+  margin-top: 190px;
+  padding-left: 20px;
+  font-weight: bold;
+}
 .header-link {
   padding: 10px;
 }
@@ -54,7 +58,7 @@ p {
 #header.header-scrolled,
 #header.header-inner-pages {
   background: linear-gradient(45deg, #dc6ef9, rgb(108, 11, 205));
-  opacity: 0.8;
+  opacity: 1;
   margin-top: 0px;
 }
 
@@ -227,7 +231,7 @@ p {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #333333;
 }
 
 .mobile-nav {
@@ -318,14 +322,11 @@ p {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+
 #section1 {
   background-image: url(../../Images/Home/Rec\ 1.jpg);
 }
-.tittle {
-  margin-top: 190px;
-  padding-left: 20px;
-  font-weight: bold;
-}
+
 p.paragraph {
   padding-left: 18px;
   padding-top: 25px;
@@ -341,6 +342,7 @@ p.paragraph {
   color: white;
   border: 1px solid white;
 }
+
 #section2 {
   margin-top: 100px;
 }
@@ -373,7 +375,6 @@ p.paragraph {
 }
 #section2 div.dev {
   box-shadow: 0px 0px 1px;
-  margin-right: 20px;
 }
 #section2 div.dev img {
   margin-top: 20px;
@@ -456,6 +457,31 @@ p.paragraph {
 }
 /* ########Home page ended */
 
+/* ####### Responsive Large Device */
+@media screen and(max-width:1199.98px) {
+  .mainpic {
+    width: 100%;
+  }
+}
+
+
+/* ######### Small Device ##### */
+@media screen and (max-width:768px){
+  body{
+    overflow-x:hidden;
+  }
+  .array{
+    margin-left: 25%;
+  }
+  .array-text{
+    text-align: center;
+  }
+  #section4 p{
+    text-align: center;
+  }
+}
+/* ####### End ######## */
+
 /* #### About Us page starting-line ### */
 #about1 {
   background-image: url(../../Images/About/1279\ 633.png);
@@ -490,6 +516,9 @@ button.btnA:hover {
 #about3 p {
   font-weight: 300;
   font-size: 16px;
+}
+#about3 h1.tittle {
+  margin-top: 137px;
 }
 .blog {
   padding-top: 41px;
@@ -602,54 +631,53 @@ button.btnA:hover {
 .rower {
   margin: 50px 0;
 }
-#service5{
+#service5 {
   margin-top: 50px;
 }
 
-#service5 div.rest{
-  background: linear-gradient(45deg, #DC6EF9, #6B0BCD);
-    text-align: center;
-       margin: 0 222px 53px 229px;
-    padding: 35px 0 35px 0;
-    border-radius: 20px;
-    
+#service5 div.rest {
+  background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
+  text-align: center;
+  margin: 0 222px 53px 229px;
+  padding: 35px 0 35px 0;
+  border-radius: 20px;
 }
 /* ######### End line of service page */
 
-#contact1{
+#contact1 {
   background-image: url(../../Images/Home/Rec\ 1.jpg);
-  padding-bottom:109px;
+  padding-bottom: 109px;
 }
-#form h2{
+#form h2 {
   color: black;
-    font-size: 56px;
+  font-size: 56px;
 }
-.form{
-         background: white;
-    margin: -92px 340px 75px 420px;
+.form {
+  background: white;
+  margin: -92px 340px 75px 420px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-#form p{
+#form p {
   font-size: 15px;
-
 }
-input{
+input {
   overflow: visible;
-    padding: 0 0 0;
-    width: 100%;
-    background: #DEDEDE;
-    margin: 36px 0 0 0;
-    border: none;
-    padding: 10px 0 10px 0;
-    border-radius: 8px;
+  padding: 0 0 0;
+  width: 100%;
+  background: #dedede;
+  margin: 36px 0 0 0;
+  border: none;
+  padding: 10px 0 10px 0;
+  border-radius: 8px;
 }
-.form-control{
+.form-control {
   margin-top: 32px;
 }
-#form button.btn{
+#form button.btn {
   color: white;
   margin-top: 10px;
-  background: linear-gradient(45deg, #DC6EF9, #6B0BCD);
+  background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
 }
 
 #footer {
