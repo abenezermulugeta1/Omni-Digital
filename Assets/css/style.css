@@ -370,7 +370,9 @@ p.paragraph {
   border-radius: 5px;
   height: 47px;
   border: none;
+  text-align: center;
 }
+
 #section7 button {
   margin-top: 50px;
   margin-bottom: 70px;
