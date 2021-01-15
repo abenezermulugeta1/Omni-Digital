@@ -458,18 +458,40 @@ p.paragraph {
 /* ########Home page ended */
 
 /* ######### Small Device ##### */
-@media screen and (max-width:768px){
-  body{
-    overflow-x:hidden;
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
   }
-  .array{
+  .array {
     margin-left: 25%;
   }
-  .array-text{
+  .array-text {
     text-align: center;
   }
-  #section4 p{
+  #section4 p {
     text-align: center;
+  }
+}
+/* ##### Extra Small Device */
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden!important;
+  }
+  .btn.btn2 {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  #section2 div.text-right{
+    text-align: center!important;
+  }
+  #section2 h1{
+    text-align: center;
+  }
+  .array {
+    margin-left: 3%;
+  }
+  #section7 input {
+    width: 78%;
   }
 }
 /* ####### End ######## */
