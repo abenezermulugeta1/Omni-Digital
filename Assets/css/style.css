@@ -113,19 +113,6 @@ p {
   font-weight: bold;
 }
 
-/* Get Startet Button */
-.get-started-btn {
-  margin-left: 25px;
-  color: #fff;
-  border-radius: 50px;
-  padding: 6px 25px 7px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 14px;
-  display: inline-block;
-  border: 2px solid #47b2e4;
-  font-weight: 600;
-}
 
 @media (max-width: 768px) {
   .get-started-btn {
@@ -563,9 +550,9 @@ input {
   margin-top: 10px;
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
 }
-.down{
-    padding-bottom: 29px;
-    margin-left: 40px;
+.down {
+  padding-bottom: 29px;
+  margin-left: 40px;
 }
 
 #footer {
@@ -599,28 +586,26 @@ input {
 p.fotter-para {
   font-weight: 300;
 }
-.design{
-
+.design {
 }
-.myhahu{
-    color: seagreen;
-    padding-left: 8px;
+.myhahu {
+  color: seagreen;
+  padding-left: 8px;
 }
-
 
 /* ######### Medium device ########## */
-@media (min-width: 769px) and (max-width : 992px){
-  .form{
+@media (min-width: 769px) and (max-width: 992px) {
+  .form {
     margin: -92px 163px 75px 237px;
   }
-  #about3 img.acc{
-    margin-right:20px;
+  #about3 img.acc {
+    margin-right: 20px;
   }
-  #about3 h6{
+  #about3 h6 {
     text-align: center;
     padding-top: 20px;
   }
-  .down{
+  .down {
     margin: 0;
     padding: 0;
   }
@@ -643,10 +628,10 @@ p.fotter-para {
   #about2 p.secpara {
     padding: 0;
   }
-  #about3 img.acc{
-    margin-right:128px;
+  #about3 img.acc {
+    margin-right: 128px;
   }
-  #about3 h6{
+  #about3 h6 {
     text-align: center;
     padding-top: 20px;
   }
@@ -659,7 +644,7 @@ p.fotter-para {
   #form button.btn {
     margin: 20px 0 32px 0;
   }
-  .down{
+  .down {
     margin: 0;
     padding: 0;
   }
@@ -710,7 +695,7 @@ p.fotter-para {
     color: #666666;
     padding-left: 12px;
   }
-  .down{
+  .down {
     margin: 0;
   }
 }
