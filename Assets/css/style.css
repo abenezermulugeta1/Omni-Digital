@@ -113,7 +113,6 @@ p {
   font-weight: bold;
 }
 
-
 @media (max-width: 768px) {
   .get-started-btn {
     margin: 0 48px 0 0;
@@ -505,8 +504,9 @@ button.btnA:hover {
 #service5 {
   margin-top: 50px;
 }
-.text-array{
-      font-size: 15px;
+.text-array {
+  font-size: 15px!important;
+  padding-top: 0!important;
 }
 #service5 div.rest {
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
@@ -624,6 +624,7 @@ p.fotter-para {
   .array-text {
     text-align: center;
   }
+
   #section4 p {
     text-align: center;
   }
