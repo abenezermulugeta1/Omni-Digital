@@ -436,14 +436,10 @@ button.btnA:hover {
   position: relative;
 }
 
-/* fix blank or flashing items on carousel */
 .owl-carousel .item {
   position: relative;
   z-index: 100;
-  -webkit-backface-visibility: hidden;
 }
-
-/* end fix */
 .owl-nav > div {
   margin-top: -26px;
   position: absolute;
@@ -451,17 +447,6 @@ button.btnA:hover {
   color: #cdcbcd;
 }
 
-.owl-nav i {
-  font-size: 52px;
-}
-
-.owl-nav .owl-prev {
-  left: -30px;
-}
-
-.owl-nav .owl-next {
-  right: -30px;
-}
 /* ##########End line of About page##### */
 #service1 {
   background-image: url(../../Images/Home/Rec\ 1.jpg);
