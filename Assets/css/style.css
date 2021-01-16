@@ -505,7 +505,9 @@ button.btnA:hover {
 #service5 {
   margin-top: 50px;
 }
-
+.text-array{
+      font-size: 15px;
+}
 #service5 div.rest {
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
   text-align: center;
