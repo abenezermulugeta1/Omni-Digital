@@ -614,6 +614,13 @@ input {
 p.fotter-para {
   font-weight: 300;
 }
+.design{
+
+}
+.myhahu{
+    color: seagreen;
+    padding-left: 8px;
+}
 
 
 /* ######### Medium device ########## */
@@ -717,6 +724,9 @@ p.fotter-para {
   #form p {
     color: #666666;
     padding-left: 12px;
+  }
+  .down{
+    margin: 0;
   }
 }
 /* ####### End ######## */
