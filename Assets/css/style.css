@@ -615,9 +615,7 @@ p.fotter-para {
 
 /* ######### Small Device ##### */
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
+
   .array {
     margin-left: 25%;
   }
@@ -654,9 +652,7 @@ p.fotter-para {
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
-  body {
-    overflow-x: hidden !important;
-  }
+
   .btn.btn2 {
     margin-top: 10px;
     margin-left: 0px;
