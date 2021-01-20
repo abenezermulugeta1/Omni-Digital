@@ -542,6 +542,10 @@ input {
   margin-top: 10px;
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
 }
+  #form p {
+    color: #666666;
+    padding-left: 12px;
+  }
 .down {
   padding-bottom: 29px;
   margin-left: 40px;
@@ -583,7 +587,12 @@ p.fotter-para {
   color: seagreen;
   padding-left: 8px;
 }
-
+/* ######### Large Device ########## */
+@media screen and (min-width:1200px){
+  .sample{
+    text-align:center;
+  }
+}
 /* ######### Medium device ########## */
 @media (min-width: 769px) and (max-width: 992px) {
   .form {
@@ -679,10 +688,7 @@ p.fotter-para {
   .cont {
     margin: 10px 0;
   }
-  #form p {
-    color: #666666;
-    padding-left: 12px;
-  }
+
   .down {
     margin: 0;
   }
