@@ -345,6 +345,9 @@ p.paragraph {
   border: none;
   text-align: center;
 }
+form div.col{
+  padding-left: 30px;
+}
 
 #section7 button {
   margin-top: 50px;
