@@ -45,9 +45,7 @@
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
   }
-
-  
-
+// owl corousel for about page
   $('.owl-carousel').owlCarousel({
   loop: true,
   margin: 10,
