@@ -345,7 +345,7 @@ p.paragraph {
   border: none;
   text-align: center;
 }
-form div.col{
+form div.col {
   padding-left: 30px;
 }
 
@@ -495,8 +495,8 @@ button.btnA:hover {
   margin-top: 50px;
 }
 .text-array {
-  font-size: 15px!important;
-  padding-top: 0!important;
+  font-size: 15px !important;
+  padding-top: 0 !important;
 }
 #service5 div.rest {
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
@@ -517,7 +517,7 @@ button.btnA:hover {
 }
 .form {
   background: white;
-  margin: -92px 340px 75px 420px;
+  margin: -92px 361px 75px 372px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -542,10 +542,10 @@ input {
   margin-top: 10px;
   background: linear-gradient(45deg, #dc6ef9, #6b0bcd);
 }
-  #form p {
-    color: #666666;
-    padding-left: 12px;
-  }
+#form p {
+  color: #666666;
+  padding-left: 12px;
+}
 .down {
   padding-bottom: 29px;
   margin-left: 40px;
@@ -588,9 +588,9 @@ p.fotter-para {
   padding-left: 8px;
 }
 /* ######### Large Device ########## */
-@media screen and (min-width:1200px){
-  .sample{
-    text-align:center;
+@media screen and (min-width: 1200px) {
+  .sample {
+    text-align: center;
   }
 }
 /* ######### Medium device ########## */
@@ -613,7 +613,6 @@ p.fotter-para {
 
 /* ######### Small Device ##### */
 @media screen and (max-width: 768px) {
-
   .array {
     margin-left: 25%;
   }
@@ -650,7 +649,6 @@ p.fotter-para {
 }
 /* ##### Extra Small Device */
 @media screen and (max-width: 576px) {
-
   .btn.btn2 {
     margin-top: 10px;
     margin-left: 0px;
