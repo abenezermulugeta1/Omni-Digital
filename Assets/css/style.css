@@ -461,7 +461,7 @@ button.btnA:hover {
 .uni {
   margin-top: 123px;
 }
-#service3 p.unique {
+#service3 blockquote {
   font-weight: 300;
   margin-top: 23px;
   background: #dedede;
@@ -469,6 +469,10 @@ button.btnA:hover {
   padding: 43px 20px 43px 25px;
   border-radius: 17px;
   font-size: 18px;
+}
+cite{
+  display: flex;
+  padding-top: 30px;
 }
 #service4 {
   margin-top: 36px;
