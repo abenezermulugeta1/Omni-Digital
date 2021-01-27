@@ -470,7 +470,7 @@ button.btnA:hover {
   border-radius: 17px;
   font-size: 18px;
 }
-cite{
+cite {
   display: flex;
   padding-top: 30px;
 }
@@ -521,7 +521,10 @@ cite{
 }
 .form {
   background: white;
-  margin: -92px 361px 75px 372px;
+  width: 490px;
+  margin: 0 auto;
+  margin-top: -75px;
+  margin-bottom: 49px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
